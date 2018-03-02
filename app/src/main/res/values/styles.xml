@@ -8,4 +8,8 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="ButtonStyle_issue_one" parent="@style/Widget.AppCompat.Button">
+        <item name="android:background">@drawable/button_background</item>
+    </style>
+
 </resources>

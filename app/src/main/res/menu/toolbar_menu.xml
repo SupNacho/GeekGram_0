@@ -3,5 +3,12 @@
       xmlns:app="http://schemas.android.com/apk/res-auto">
 <item android:id="@+id/tool_bar_OK"
       android:title=""
-      app:showAsAction="always"/>
+      android:icon="@drawable/ic_check_black_24dp"
+      android:orderInCategory="100"
+      app:showAsAction="ifRoom"/>
+<item android:id="@+id/tool_bar_Close"
+      android:title=""
+      android:icon="@drawable/ic_close_black_24dp"
+      android:orderInCategory="200"
+      app:showAsAction="ifRoom"/>
 </menu>
